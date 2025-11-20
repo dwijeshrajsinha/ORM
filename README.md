@@ -28,8 +28,11 @@ Execute Django admin and create details for 10 books
 
 
 ## OUTPUT
+<img width="1907" height="963" alt="image" src="https://github.com/user-attachments/assets/87150217-9f9c-454e-a1bc-3f0eb7acf871" />
 
-Include the screenshot of your admin page.
+
+
+NAME:DWIJESH RAJ SINHA Y REGISTER NO:25013468
 
 
 ## RESULT
