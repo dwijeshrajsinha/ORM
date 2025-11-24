@@ -47,7 +47,8 @@ admin.site.register(amazon_DB,amazon_DBAdmin)
 ~~~
 
 ## OUTPUT
-<img width="1907" height="963" alt="image" src="https://github.com/user-attachments/assets/87150217-9f9c-454e-a1bc-3f0eb7acf871" />
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/bad4290e-e05b-4fa0-84fb-168841768a15" />
+
 
 
 ## RESULT
