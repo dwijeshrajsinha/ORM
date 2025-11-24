@@ -25,32 +25,25 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+~~~
 models.py
 
 From django.db import models 
-
 from django.contrib import admin
-
 class amazon_DB (models.Model):
-
      Product_name=models.CharField(max_length=20)     
      S_no=models.IntegerField (primary_key=True)
      Product_type=models.CharField(max_length=20)
      Price=models.CharField(max_length=20)
      Year=models.IntegerField()
-
 class amazon_DBAdmin(admin.ModelAdmin):
-
      list_display=["Product_name","S_no","Product_type","Price","Year"]
      
 admin.py
-
 from django.contrib import admin
-
 from .models import amazon_DB,amazon_DBAdmin
-
 admin.site.register(amazon_DB,amazon_DBAdmin)
-
+~~~
 
 ## OUTPUT
 <img width="1907" height="963" alt="image" src="https://github.com/user-attachments/assets/87150217-9f9c-454e-a1bc-3f0eb7acf871" />
